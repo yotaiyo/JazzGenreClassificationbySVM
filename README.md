@@ -7,7 +7,8 @@
 * 600曲のデータをDicogs[https://www.discogs.com/ja/]とAll Music[https://www.allmusic.com/]から収集したクラスラベル情報を用いてBop，Cool Jazz，Hard Bop，Post Bopと呼ばれる4つのジャンルに区分しました．今回は，これらのジャンルを高い精度で予測することが目的です．
 
 ### Feature Extraction
-* Matlabのパッケージの1つであるMIRtoolbox[<https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mirtoolbox>]を用いて，特徴量を抽出します．MIRtoolboxには，便利な特徴量抽出アルゴリズムが多く実装されています．　　
+* Matlabのパッケージの1つであるMIRtoolbox[<https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mirtoolbox>]を用いて，特徴量を抽出します．
+  MIRtoolboxには，便利な特徴量抽出アルゴリズムが多く実装されています．　　
 * MIRtoolboxで使用可能な特徴量抽出アルゴリズムの中で，rms値やMFCC，Zerocrossといった代表的な19種類を使用します．
 * 特徴量は20[ms]から80[ms]程度のフレーム単位で抽出されることが一般的ですが，抽出されるデータ量が多すぎるといった問題があります．
 * 今回は，抽出された値から1[s]単位で平均値や標準偏差といった統計量を計算することでデータを圧縮します．（これをセグメント特徴量と呼びます）
