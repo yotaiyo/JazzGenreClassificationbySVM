@@ -4,7 +4,7 @@
 
 ### Dataset  
 * 所有していた600曲のmp3，m4aジャズ音源データを使用しました．  
-* 600曲のデータをDicogs[https://www.discogs.com/ja/]とAll Music[https://www.allmusic.com/]から収集したクラスラベル情報を用いてBop，Cool Jazz，Hard Bop，Post Bopと呼ばれる4つのジャンルに区分しました．今回は，これらのジャンルを高い精度で予測することが目的です．
+* 600曲のデータをDicogs[<https://www.discogs.com/ja/>]とAll Music[<https://www.allmusic.com/>]から収集したクラスラベル情報を用いてBop，Cool Jazz，Hard Bop，Post Bopと呼ばれる4つのジャンルに区分しました．今回は，これらのジャンルを高い精度で予測することが目的です．
 
 ### Feature Extraction
 * MIRtoolbox[<https://www.jyu.fi/hytk/fi/laitokset/mutku/en/research/materials/mirtoolbox>]を用いて，特徴量を抽出します．  
