@@ -58,7 +58,7 @@ mp3，m4aデータは使用しないため削除します．
 4. combining_results.py  
 results0.txt~results59.txtをresults_song.txtとしてまとめます．
 5. Create_All_Results.py  
-各曲から得られたresults_song.txtをAll_results/All_results_GenreName.txtとしてまとめます．
+各曲から得られたresults_song.txtをAll_results/All_results_GenreName.txtとしてまとめます．  
 得られたAll_results_GenreName.txtをコピペしてAll_results/All_results.csvとして作成してください．
 6. SVM.py  
 SVMを用いてトレーニングと評価を行います．
